@@ -1,43 +1,58 @@
 {
-    "name": "pyubx2",
-    "version": "1.0.0",
-    "description": "UBX protocol parser and generator for MicroPython",
-    "keywords": [
-        "ubx",
-        "gnss",
-        "gps",
-        "nmea",
-        "rtcm",
-        "parser",
-        "generator",
-        "micropython"
-    ],
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/semuconsulting/pyubx2"
-    },
-    "authors": [
-        {
-            "name": "semuadmin",
-            "email": "semuadmin@semuconsulting.com",
-            "maintainer": true
-        }
-    ],
-    "license": "BSD-3-Clause",
-    "frameworks": [
-        "micropython"
-    ],
-    "platforms": [
-        "*"
-    ],
-    "build": {
-        "srcDir": "src",
-        "include": [
-            "pyubx2/*.py"
+    "urls": [
+        [
+            "__init__.py",
+            "github:pawelros/pyubx2/src/pyubx2/__init__.py"
+        ],
+        [
+            "_version.py",
+            "github:pawelros/pyubx2/src/pyubx2/_version.py"
+        ],
+        [
+            "exceptions.py",
+            "github:pawelros/pyubx2/src/pyubx2/exceptions.py"
+        ],
+        [
+            "ubxhelpers.py",
+            "github:pawelros/pyubx2/src/pyubx2/ubxhelpers.py"
+        ],
+        [
+            "ubxmessage.py",
+            "github:pawelros/pyubx2/src/pyubx2/ubxmessage.py"
+        ],
+        [
+            "ubxreader.py",
+            "github:pawelros/pyubx2/src/pyubx2/ubxreader.py"
+        ],
+        [
+            "ubxtypes_configdb.py",
+            "github:pawelros/pyubx2/src/pyubx2/ubxtypes_configdb.py"
+        ],
+        [
+            "ubxtypes_core.py",
+            "github:pawelros/pyubx2/src/pyubx2/ubxtypes_core.py"
+        ],
+        [
+            "ubxtypes_decodes.py",
+            "github:pawelros/pyubx2/src/pyubx2/ubxtypes_decodes.py"
+        ],
+        [
+            "ubxtypes_get.py",
+            "github:pawelros/pyubx2/src/pyubx2/ubxtypes_get.py"
+        ],
+        [
+            "ubxtypes_poll.py",
+            "github:pawelros/pyubx2/src/pyubx2/ubxtypes_poll.py"
+        ],
+        [
+            "ubxtypes_set.py",
+            "github:pawelros/pyubx2/src/pyubx2/ubxtypes_set.py"
+        ],
+        [
+            "ubxvariants.py",
+            "github:pawelros/pyubx2/src/pyubx2/ubxvariants.py"
         ]
-    },
-    "dependencies": {
-        "pynmeagps": ">=1.0.50",
-        "pyrtcm": ">=1.1.7"
-    }
+    ],
+    "version": "1.0.0",
+    "deps": []
 }
