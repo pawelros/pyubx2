@@ -2,7 +2,16 @@
     "name": "pyubx2",
     "version": "1.0.0",
     "description": "UBX protocol parser and generator for MicroPython",
-    "keywords": "ubx, gnss, gps, nmea, rtcm, parser, generator, micropython",
+    "keywords": [
+        "ubx",
+        "gnss",
+        "gps",
+        "nmea",
+        "rtcm",
+        "parser",
+        "generator",
+        "micropython"
+    ],
     "repository": {
         "type": "git",
         "url": "https://github.com/semuconsulting/pyubx2"
@@ -15,12 +24,20 @@
         }
     ],
     "license": "BSD-3-Clause",
-    "frameworks": "micropython",
-    "platforms": "*",
+    "frameworks": [
+        "micropython"
+    ],
+    "platforms": [
+        "*"
+    ],
     "build": {
         "srcDir": "src",
         "include": [
             "pyubx2/*.py"
         ]
+    },
+    "dependencies": {
+        "pynmeagps": ">=1.0.50",
+        "pyrtcm": ">=1.1.7"
     }
 }
