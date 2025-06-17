@@ -1,58 +1,12 @@
 {
     "urls": [
         [
-            "__init__.py",
-            "github:pawelros/pyubx2/src/pyubx2/__init__.py"
-        ],
-        [
-            "_version.py",
-            "github:pawelros/pyubx2/src/pyubx2/_version.py"
-        ],
-        [
-            "exceptions.py",
-            "github:pawelros/pyubx2/src/pyubx2/exceptions.py"
-        ],
-        [
-            "ubxhelpers.py",
-            "github:pawelros/pyubx2/src/pyubx2/ubxhelpers.py"
-        ],
-        [
-            "ubxmessage.py",
-            "github:pawelros/pyubx2/src/pyubx2/ubxmessage.py"
-        ],
-        [
-            "ubxreader.py",
-            "github:pawelros/pyubx2/src/pyubx2/ubxreader.py"
-        ],
-        [
-            "ubxtypes_configdb.py",
-            "github:pawelros/pyubx2/src/pyubx2/ubxtypes_configdb.py"
-        ],
-        [
-            "ubxtypes_core.py",
-            "github:pawelros/pyubx2/src/pyubx2/ubxtypes_core.py"
-        ],
-        [
-            "ubxtypes_decodes.py",
-            "github:pawelros/pyubx2/src/pyubx2/ubxtypes_decodes.py"
-        ],
-        [
-            "ubxtypes_get.py",
-            "github:pawelros/pyubx2/src/pyubx2/ubxtypes_get.py"
-        ],
-        [
-            "ubxtypes_poll.py",
-            "github:pawelros/pyubx2/src/pyubx2/ubxtypes_poll.py"
-        ],
-        [
-            "ubxtypes_set.py",
-            "github:pawelros/pyubx2/src/pyubx2/ubxtypes_set.py"
-        ],
-        [
-            "ubxvariants.py",
-            "github:pawelros/pyubx2/src/pyubx2/ubxvariants.py"
+            "pyubx2.py",
+            "github:pawelros/pyubx2/pyubx2.py"
         ]
     ],
     "version": "1.0.0",
-    "deps": []
+    "deps": [
+        "pynmeagps"
+    ]
 }
